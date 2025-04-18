@@ -245,11 +245,11 @@ def parse_files(input_file, output_file, empty_desc):
             print(f"\t\t{error}")
     error_file = pandas.DataFrame(item_errors)
     try:        
-        error_file.to_excel('errors_file.xlsx', sheet_name='Sheet1')
+        error_file.to_excel('./output/errors_file.xlsx', sheet_name='Sheet1')
     except(PermissionError):
         chime.warning()
         input("Permission Error with 'errors_file.xlsx'\nPress any button to try again:")
-        error_file.to_excel('errors_file.xlsx', sheet_name='Sheet1')
+        error_file.to_excel('./output/errors_file.xlsx', sheet_name='Sheet1')
     print("Created 'errors_file.xlsx' with all of the items with errors.")
     chime.success()
 
