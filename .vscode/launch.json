@@ -1,0 +1,36 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Main Items Parsing Empty Descriptions",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "main",
+            "args": ["begin_item_doc.xlsx", "results.xlsx", "--empty_desc"]
+        },
+        {
+            "name": "Run Error Items Parsing Empty Descriptions",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "main",
+            "args": ["errors_file.xlsx", "results.xlsx", "--empty_desc"]
+        },
+        {
+            "name": "Run Main Items Parsing",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "main",
+            "args": ["begin_item_doc.xlsx", "results.xlsx"]
+        },
+        {
+            "name": "Run Error Items Parsing",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "main",
+            "args": ["errors_file.xlsx", "results.xlsx"]
+        }
+    ]
+}
