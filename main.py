@@ -5,7 +5,7 @@ Author: Raine Fuerst
 """
 
 import argparse
-from parse_items import parse_files
+from item_collector import ItemCollector
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -13,5 +13,5 @@ if __name__ == "__main__":
     parser.add_argument("output_file", help="The name of the file to output the results.")
     parser.add_argument("--empty_desc", action="store_true", help="Add this argument if an empty description is valid.")
     args = parser.parse_args()
-    # parse_files('errors_file.xlsx')
-    parse_files(args.input_file, args.output_file, args.empty_desc)
+    collector = ItemCollector(args.input_file)
+    collector.run()

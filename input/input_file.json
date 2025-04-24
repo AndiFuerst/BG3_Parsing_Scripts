@@ -1,0 +1,134 @@
+{
+    "Input Urls": [
+        {
+            "url": "https://bg3.wiki/wiki/Consumables",
+            "special": false
+        },
+        {
+            "url": "https://bg3.wiki/wiki/Musical_Instruments",
+            "special": false
+        },
+        {
+            "url": "https://bg3.wiki/wiki/Cloaks",
+            "special": false
+        },
+        {
+            "url": "https://bg3.wiki/wiki/Underwear",
+            "special": false
+        },
+        {
+            "url": "https://bg3.wiki/wiki/Ammunition",
+            "special": false
+        },
+        {
+            "url": "https://bg3.wiki/wiki/Grenades",
+            "special": false
+        },
+        {
+            "url": "https://bg3.wiki/wiki/Coatings",
+            "special": false
+        },
+        {
+            "url": "https://bg3.wiki/wiki/Clothing",
+            "special": false
+        },
+        {
+            "url": "https://bg3.wiki/wiki/Potions",
+            "special": false
+        },
+        {
+            "url": "https://bg3.wiki/wiki/Dyes",
+            "special": false
+        },
+        {
+            "url": "https://bg3.wiki/wiki/Shields",
+            "special": false
+        },
+        {
+            "url": "https://bg3.wiki/wiki/Elixirs",
+            "special": false
+        },
+        {
+            "url": "https://bg3.wiki/wiki/Footwear",
+            "special": false
+        },
+        {
+            "url": "https://bg3.wiki/wiki/Containers",
+            "special": false
+        },
+        {
+            "url": "https://bg3.wiki/wiki/Handwear",
+            "special": false
+        },
+        {
+            "url": "https://bg3.wiki/wiki/Amulets",
+            "special": false
+        },
+        {
+            "url": "https://bg3.wiki/wiki/Headwear",
+            "special": false
+        },
+        {
+            "url": "https://bg3.wiki/wiki/Armour",
+            "special": false
+        },
+        {
+            "url": "https://bg3.wiki/wiki/Camp_Clothing",
+            "special": false
+        },
+        {
+            "url": "https://bg3.wiki/wiki/Scrolls",
+            "special": false
+        },
+        {
+            "url": "https://bg3.wiki/wiki/Valuables",
+            "special": false
+        },
+        {
+            "url": "https://bg3.wiki/wiki/Rings",
+            "special": false
+        },
+        {
+            "url": "https://bg3.wiki/wiki/List_of_simple_weapons",
+            "special": false
+        },
+        {
+            "url": "https://bg3.wiki/wiki/Miscellaneous",
+           "special": false
+        },
+        {
+            "url": "https://bg3.wiki/wiki/Camp_Supplies",
+            "special": true
+        },
+        {
+            "url": "https://bg3.wiki/wiki/List_of_martial_weapons",
+            "special": false
+        },
+        {
+            "url": "https://bg3.wiki/wiki/Story_Items",
+            "special": false
+        },
+        {
+            "url": "https://bg3.wiki/wiki/Books",
+            "special": false
+        },
+        {
+            "url": "https://bg3.wiki/wiki/Notes",
+            "special": false
+        },
+        {
+            "url": "https://bg3.wiki/wiki/Alchemy",
+            "special": false
+        }
+    ],
+    "Missing Items": [
+        {
+            "url": "https://bg3.wiki/wiki/Suspicious_Poison",
+            "name": "Suspicious Poison"
+        },
+        {
+            "url": "https://bg3.wiki/wiki/Salami",
+            "name": "Salami"
+        }
+    ]
+}

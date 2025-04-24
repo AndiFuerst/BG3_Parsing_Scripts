@@ -9,28 +9,14 @@
             "type": "debugpy",
             "request": "launch",
             "module": "main",
-            "args": ["./output/begin_item_doc.xlsx", "./output/results.xlsx", "--empty_desc"]
-        },
-        {
-            "name": "Run Error Items Parsing Empty Descriptions",
-            "type": "debugpy",
-            "request": "launch",
-            "module": "main",
-            "args": ["./output/errors_file.xlsx", "./output/results.xlsx", "--empty_desc"]
+            "args": ["./input/input_file.json", "./output/results.xlsx", "--empty_desc"]
         },
         {
             "name": "Run Main Items Parsing",
             "type": "debugpy",
             "request": "launch",
             "module": "main",
-            "args": ["./output/begin_item_doc.xlsx", "./output/results.xlsx"]
-        },
-        {
-            "name": "Run Error Items Parsing",
-            "type": "debugpy",
-            "request": "launch",
-            "module": "main",
-            "args": ["./output/errors_file.xlsx", "./output/results.xlsx"]
+            "args": ["./input/input_file.json", "./output/results.xlsx"]
         }
     ]
 }
